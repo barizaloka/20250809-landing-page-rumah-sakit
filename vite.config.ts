@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/20250809-landing-page-rumah-sakit',
   plugins: [react(), tailwindcss()],
 })
